@@ -1,0 +1,22 @@
+.footer {
+    height: auto;
+    background-color: tomato;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px; 
+}
+.foot-item {
+    background-color: firebrick; 
+    border: 1px solid tomato; 
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: left; */
+    justify-content: space-around;
+}
+.header-img {
+    width: 20px;
+    height: 20px;
+    
+} 

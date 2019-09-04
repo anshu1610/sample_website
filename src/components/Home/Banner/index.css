@@ -1,0 +1,8 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+}
+.img-tag {
+    width: 20%;
+    height : 200px;
+}

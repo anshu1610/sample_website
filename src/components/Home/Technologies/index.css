@@ -1,0 +1,8 @@
+.tech {
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}

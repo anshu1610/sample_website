@@ -1,0 +1,24 @@
+.header {
+    background-color: tomato;
+    /* margin-top:10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.blocks {
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 15px;
+}
+.button-login {
+    background-color:navajowhite;
+    color: firebrick;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.button-login:hover {
+    background-color: black;
+}
