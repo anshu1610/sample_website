@@ -12,7 +12,7 @@ class Header extends React.Component {
                 <div className="blocks">Our Stars</div>
                 <div className="blocks">Contact Us</div>
                 <div>
-                    <Link to = "/" >
+                    <Link to = "/login" >
                         <button type="button" className="button-login">Login</button>
                     </Link>
                 </div>

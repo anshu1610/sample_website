@@ -12,7 +12,7 @@ class Login extends React.Component {
                         <input type="text" name="login_details"/><br/>
                         Password: <br/>
                         <input type="text" name="password"/>
-                        <Link to = "/core" >
+                        <Link to = "/" >
                             <button type="button">Submit</button>
                         </Link> 
                     </fieldset>
