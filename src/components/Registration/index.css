@@ -1,0 +1,49 @@
+/* *{
+    width: 100%;
+} */
+.main-div {
+    /* background-image: url('/public/Assets/Images/Registration/backimage.jpg'); */ 
+        background: lightcyan;
+        height: 100vh;
+       
+}
+p {
+    margin-block-start: 0px ;
+    margin-block-end: 0px ;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.fname { grid-area: fname; }
+.sname { grid-area: sname; }
+.email { grid-area: email; }
+.password { grid-area: password; }
+.dob { grid-area: dob; }
+.gender { grid-area: gender; }
+.submit-button { grid-area: submitbutton; }
+
+/*.item8 { grid-area: item8 }
+.item9 { grid-area: item9 }
+.item10 { grid-area: item10 } */
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'fname fname fname sname sname sname'
+        'email email email email email email'
+        'password password password password password password'
+        'dob dob dob dob dob dob'
+        'gender gender gender gender gender gender'
+        'gender gender gender gender gender gender'
+        'submitbutton submitbutton . . . .'
+}
